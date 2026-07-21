@@ -180,4 +180,4 @@ Future Interns
 
 GitHub: https://github.com/sathya9100
 
-LinkedIn: https://www.linkedin.com/in/sathya-ankitha-ravirala-731b27360
+LinkedIn: https://www.linkedin.com/in/sathya-ankitha-ravirala
