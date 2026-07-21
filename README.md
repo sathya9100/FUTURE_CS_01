@@ -1,52 +1,85 @@
-# 🛡️ Future Interns – Cyber Security Internship
+# FUTURE_CS_01 – Vulnerability Assessment Report for a Live Website
 
-![Internship](https://img.shields.io/badge/Internship-Future%20Interns-blue)
-![Task](https://img.shields.io/badge/Task-1-green)
-![Tool](https://img.shields.io/badge/Tool-OWASP%20ZAP-orange)
-![Tool](https://img.shields.io/badge/Tool-Nmap-red)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+## Overview
 
-# 🔍 Task 1 – Vulnerability Assessment Report for a Live Website
+This repository contains the submission for **Task 1** of the **Future Interns Cyber Security Internship**.
 
-## 📌 Objective
-
-The objective of this task was to perform a passive vulnerability assessment on a live demonstration web application using industry-standard cybersecurity tools. The assessment focused on identifying security weaknesses without exploiting or modifying the target application.
+The objective of this task was to perform a passive vulnerability assessment on a publicly accessible demonstration web application using industry-standard security tools. The assessment focused on identifying security weaknesses without exploiting the target application or affecting its availability.
 
 ---
 
-# 🎯 Target Website
+## Assessment Details
 
-**Website:** TestFire Demo Application (Altoro Mutual)
-
-**URL:** http://demo.testfire.net
-
-> **Note:** This is an intentionally vulnerable web application designed for cybersecurity learning and testing purposes.
-
----
-
-# 🛠️ Tools Used
-
-- Nmap
-- OWASP ZAP (Zed Attack Proxy)
-- Browser Developer Tools
-- Google Chrome
-- Microsoft Word
+| Item | Description |
+|------|-------------|
+| Internship | Future Interns – Cyber Security Internship |
+| Task | Task 1 – Vulnerability Assessment Report |
+| Assessment Type | Passive Web Application Security Assessment |
+| Target | TestFire Demo Application (Altoro Mutual) |
+| URL | http://demo.testfire.net |
+| Assessment Approach | Non-destructive / Passive Testing |
 
 ---
 
-# 📋 Assessment Methodology
+## Objectives
 
-The vulnerability assessment was conducted using the following steps:
+The assessment was performed to:
 
-1. Target Selection
-2. Network Reconnaissance using Nmap
-3. Passive Web Application Assessment using OWASP ZAP
-4. Manual Verification of Findings
-5. Documentation and Report Preparation
+- Identify common web application vulnerabilities
+- Perform passive reconnaissance using Nmap
+- Analyze HTTP requests and responses using OWASP ZAP
+- Classify vulnerabilities according to their severity
+- Recommend appropriate remediation measures
+- Document the assessment following professional reporting standards
 
 ---
 
-# 🚨 Vulnerabilities Identified
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Nmap | Network reconnaissance and service discovery |
+| OWASP ZAP | Passive web application security assessment |
+| Browser Developer Tools | Verification of requests, responses, and headers |
+| Google Chrome | Accessing the target application |
+| Microsoft Word | Documentation and report preparation |
+
+---
+
+## Assessment Methodology
+
+The assessment followed a structured methodology consisting of five stages:
+
+### 1. Target Selection
+
+The TestFire demonstration application was selected because it is intentionally designed for cybersecurity training and vulnerability assessment.
+
+### 2. Network Reconnaissance
+
+Nmap was used to identify accessible services and collect basic information about the target host.
+
+### 3. Passive Web Application Assessment
+
+OWASP ZAP was configured in Passive Scan mode to inspect HTTP traffic and identify security issues without sending malicious payloads.
+
+### 4. Manual Verification
+
+The reported findings were reviewed using Browser Developer Tools and the generated OWASP ZAP report.
+
+### 5. Documentation
+
+All findings, screenshots, observations, risk classifications, and recommendations were documented in a structured vulnerability assessment report.
+
+---
+
+## Summary of Findings
+
+| Severity | Findings |
+|----------|---------:|
+| High | 2 |
+| Medium | 4 |
+| Low | 4 |
+| Informational | 3 |
 
 ### High Risk
 
@@ -56,9 +89,9 @@ The vulnerability assessment was conducted using the following steps:
 ### Medium Risk
 
 - Absence of Anti-CSRF Tokens
-- Content Security Policy (CSP) Header Not Set
+- Content Security Policy Header Not Set
 - Missing Anti-Clickjacking Header
-- Subresource Integrity (SRI) Attribute Missing
+- Missing Subresource Integrity (SRI)
 
 ### Low Risk
 
@@ -75,30 +108,19 @@ The vulnerability assessment was conducted using the following steps:
 
 ---
 
-# 📊 Risk Summary
-
-| Risk Level | Count |
-|------------|------:|
-| 🔴 High | 2 |
-| 🟠 Medium | 4 |
-| 🟡 Low | 4 |
-| 🔵 Informational | 3 |
-
----
-
-# 📂 Repository Structure
+## Repository Structure
 
 ```text
-FUTURE_CS_01/
+FUTURE_CS_01
 │
 ├── README.md
 │
-├── Report/
+├── Report
 │   ├── Vulnerability_Assessment_Report.pdf
 │   ├── zap_report.html
 │   └── zap_report/
 │
-└── Screenshots/
+└── Screenshots
     ├── alerts.png
     ├── nmap_scan.png
     ├── zap_scan.png
@@ -107,85 +129,55 @@ FUTURE_CS_01/
 
 ---
 
-# 📸 Project Screenshots
+## Supporting Evidence
 
-## Nmap Scan
+### Nmap Scan
 
-![Nmap Scan](Screenshots/nmap_scan.png)
+<img src="Screenshots/nmap_scan.png" width="900">
 
----
+### OWASP ZAP Scan Completion
 
-## OWASP ZAP Scan Completion
+<img src="Screenshots/zap_scan.png" width="900">
 
-![OWASP ZAP Scan](Screenshots/zap_scan.png)
+### Security Alerts
 
----
+<img src="Screenshots/alerts.png" width="900">
 
-## Security Alerts
+### Generated HTML Report
 
-![Alerts](Screenshots/alerts.png)
-
----
-
-## Generated HTML Report
-
-![HTML Report](Screenshots/zap_report.png)
+<img src="Screenshots/zap_report.png" width="900">
 
 ---
 
-# 📄 Report
+## Key Learning Outcomes
 
-The complete vulnerability assessment report is available in the **Report** folder.
+This task provided practical experience in:
 
-**Report Includes:**
-
-- Executive Summary
-- Objective
-- Scope
-- Target Website
-- Tools Used
-- Methodology
-- Findings
-- Risk Classification
-- Screenshots
-- Recommendations
-- Conclusion
-- References
+- Passive vulnerability assessment
+- Web application security testing
+- Reconnaissance using Nmap
+- Security analysis using OWASP ZAP
+- Risk classification
+- Professional cybersecurity documentation
+- Ethical vulnerability assessment practices
 
 ---
 
-# 🎯 Learning Outcomes
+## Disclaimer
 
-Through this task, I learned how to:
+This assessment was conducted exclusively on an authorized demonstration website intended for cybersecurity education and training.
 
-- Perform passive vulnerability assessments
-- Conduct network reconnaissance using Nmap
-- Use OWASP ZAP for web application security testing
-- Identify common web application vulnerabilities
-- Classify vulnerabilities based on severity
-- Document findings in a professional security assessment report
-- Apply ethical cybersecurity assessment practices
+No exploitation, denial-of-service testing, authentication bypass, or unauthorized activities were performed during this assessment.
 
 ---
 
-# ⚠️ Disclaimer
-
-This vulnerability assessment was conducted **only on an authorized demonstration website** for educational purposes as part of the **Future Interns Cyber Security Internship**.
-
-No exploitation, unauthorized access, or malicious activity was performed during this assessment.
-
----
-
-# 👩‍💻 Author
+## Author
 
 **Sathya Ankitha Ravirala**
 
-**Future Interns – Cyber Security Intern**
+Cyber Security Intern  
+Future Interns
 
 GitHub: https://github.com/sathya9100
 
 LinkedIn: https://www.linkedin.com/in/sathya-ankitha-ravirala-731b27360
-
----
-
-## ⭐ If you found this project helpful, feel free to star the repository!
