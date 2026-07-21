@@ -117,15 +117,12 @@ FUTURE_CS_01/
 
 ---
 
-## Project Report
+## 📄 Project Report
 
 The complete assessment documentation is available below.
 
-- 📄 **Vulnerability Assessment Report (PDF)**  
-  `Report/Vulnerability_Assessment_Report.pdf`
-
-- 🌐 **OWASP ZAP HTML Report**  
-  `Report/zap_report.html`
+- 📄 **[Vulnerability Assessment Report (PDF)](Report/Vulnerability_Assessment_Report.pdf)**
+- 🌐 **[OWASP ZAP HTML Report](Report/zap_report.html)**
 
 ---
 
